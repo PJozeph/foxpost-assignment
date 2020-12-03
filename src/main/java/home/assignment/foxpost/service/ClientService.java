@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import home.assignment.foxpost.api.response.ErrorResponse;
 import home.assignment.foxpost.dao.ClientDao;
 import home.assignment.foxpost.exception.RecordNotFoundException;
 import home.assignment.foxpost.model.Client;
-import home.assignment.foxpost.response.ErrorResponse;
 
 @RestController
 @RequestMapping("client")

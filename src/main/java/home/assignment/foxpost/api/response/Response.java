@@ -1,4 +1,4 @@
-package home.assignment.foxpost.response;
+package home.assignment.foxpost.api.response;
 
 import java.util.List;
 
