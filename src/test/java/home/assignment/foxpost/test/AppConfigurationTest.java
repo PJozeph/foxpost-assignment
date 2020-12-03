@@ -3,8 +3,8 @@ package home.assignment.foxpost.test;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import home.assignment.foxpost.api.service.ClientService;
-import home.assignment.foxpost.api.service.ParcelService;
+import home.assignment.foxpost.service.ClientService;
+import home.assignment.foxpost.service.ParcelService;
 
 @Configuration
 public class AppConfigurationTest {

@@ -11,12 +11,12 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import home.assignment.foxpost.api.service.ParcelService;
 import home.assignment.foxpost.dao.ClientDao;
 import home.assignment.foxpost.dao.ParcelDao;
 import home.assignment.foxpost.model.Client;
 import home.assignment.foxpost.model.Event;
 import home.assignment.foxpost.model.Parcel;
+import home.assignment.foxpost.service.ParcelService;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = { AppConfigurationTest.class })

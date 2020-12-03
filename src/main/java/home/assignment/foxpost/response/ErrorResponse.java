@@ -1,4 +1,4 @@
-package home.assignment.foxpost.api.response;
+package home.assignment.foxpost.response;
 
 import lombok.Builder;
 import lombok.Data;

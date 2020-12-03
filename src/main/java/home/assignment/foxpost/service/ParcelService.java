@@ -1,4 +1,4 @@
-package home.assignment.foxpost.api.service;
+package home.assignment.foxpost.service;
 
 import java.util.List;
 
@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import home.assignment.foxpost.api.response.ErrorResponse;
-import home.assignment.foxpost.api.response.Response;
 import home.assignment.foxpost.dao.ClientDao;
 import home.assignment.foxpost.dao.ParcelDao;
 import home.assignment.foxpost.exception.RecordNotFoundException;
 import home.assignment.foxpost.model.Client;
 import home.assignment.foxpost.model.Event;
 import home.assignment.foxpost.model.Parcel;
+import home.assignment.foxpost.response.ErrorResponse;
+import home.assignment.foxpost.response.Response;
 
 @RestController
 @RequestMapping("parcel")
